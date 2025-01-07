@@ -322,5 +322,103 @@ hr{
     .experience-left,.experience-right{
         width:95%;
         margin:10px 0;
+        text-align:center;
+        height:auto;
     }
+    .project-container{
+        width:900px;
+        margin:5px 0;
+    }
+    #contact{
+        width:900px;
+        margin:10px 0;
+    }
+    .contact-left{
+        display:none;
+    }
+}
+@media (max-width:900px){
+    .main-container{
+        display:flex;
+        flex-direction:column;
+        padding:10px;
+        width:100%;
+        box-sizing:border-box;
+    }
+    .container{
+        width:400px;
+        margin:0;
+    }
+    .profile{
+        margin-left:65px;
+    }
+    .container h1{
+        font-size:24px;
+        margin-left:120px;
+    }
+    .container p{
+        font-size:16px;
+    }
+    .icon a{
+        margin-top:40px;
+        margin-left:20px;
+    }
+    .content-right{
+        width:100%;
+        overflow-wrap:break-word;
+    }
+    .about,.technology{
+        padding:15px;
+        margin:10px 0;
+        width:100%; 
+        text-align:left; 
+        box-sizing:border-box; 
+    }
+    .in-about{
+        font-size:30px;
+    }
+    .technology{
+        height:400px;
+    }
+    .technology .list{
+        display:flex;
+        flex-direction:column; 
+        align-items:flex-start; 
+        gap:10px; 
+    }
+    .technology .list ul{
+        margin:5px 0;
+        padding:0;
+        width:100%; 
+    }
+    .technology .list ul.left,.technology .list ul.right{
+        display:block; 
+        margin:0;
+    }
+    .icon{
+        display:flex;
+        justify-content:center;
+        gap:10px;
+        flex-wrap:wrap; 
+        margin-top:15px;
+    }
+    .btn{
+        display:inline-block;
+        margin-top:15px;
+        text-align:center;
+    }
+    .about,.technology,.content-right{
+        overflow:hidden;
+    }
+    textarea,input{
+        width:100%; 
+        box-sizing:border-box;
+    }
+    .project-container{
+        width:95vw;
+    }
+    #contact{
+        width:95vw;
+    }
+    
 }
