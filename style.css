@@ -78,9 +78,6 @@ p{
     font-size:19px;
     margin-left:34px;
 }
-span{
-    margin-left:140px;
-}
 .icon{
     margin-top:50px;
     display:flex;
@@ -350,14 +347,14 @@ hr{
         margin:0;
     }
     .profile{
-        margin-left:65px;
+        margin-left:60px;
     }
     .container h1{
         font-size:24px;
         margin-left:120px;
     }
     .container p{
-        font-size:16px;
+        font-size:15px;     
     }
     .icon a{
         margin-top:40px;
