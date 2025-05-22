@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">    
+    <link rel="icon" href="{{url_for('static',filename='favicon.ico')}}" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{url_for('static',filename='apple-icon-180x180.png')}}" />
+    <link rel="icon" sizes="192x192" href="{{url_for('static',filename='android-icon-192x192.png')}}" />
+    <link rel="icon" sizes="512x512" href="{{url_for('static',filename='apple-icon-152x152.png')}}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <div class="main">
+        <div class="data">
+            <div class="box">
+                <nav class="navbar">
+                    <ul>
+                        <a href="#home">
+                            <li>Home</li>
+                        </a>
+                        <a href="#education">
+                            <li>Education</li>
+                        </a>
+                        <a href="#projects">
+                            <li>Projects</li>
+                        </a>
+                        <a href="#contact">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <section class="lazy-load hidden">
+                <div class="main-container" id="home">
+                <aside>
+                    <div class="container">
+                        <div class="content">
+                            <img class="profile" src="{{url_for('static',filename='IMG202409212032121.jpg')}}" alt="profile">
+                            <h1>Ashish Yadav</h1>
+                            <p>I am a Full Stack Web Developer & Android App <span>Developer</span></p>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/ashish-yadav-55446232" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/AshishIT611" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="mailto:ay87896@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-right">
+                    <section class="about">
+                        <h2>Hello There!</h2>
+                        <p class="in-about">I'm Ashish, a developer driven by the challenge to create, innovate, and push the boundaries of technology.</p>
+                        <a href="{{url_for('static',filename='Ashish Yadav 02.pdf')}}" download="Ashish Yadav.pdf">
+                            <button class="btn">Download CV <i class="fas fa-download"></i></button>
+                        </a>
+                    </section>
+                    <section class="technology">
+                        <h2 class="title">Technology</h2>
+                        <div class="list">
+                            <ul class="left">
+                                <li><i class="fa-solid fa-c"></i>C</li>
+                                <li><i class="fa-brands fa-java"></i>Java</li>
+                                <li><i class="fa-brands fa-python"></i>Python</li>
+                                <li><i class="fa-solid fa-database"></i>SQL</li>
+                                <li><i class="fa-brands fa-html5"></i>HTML</li>
+                                <li><i class="fa-brands fa-css3-alt"></i>CSS</li>
+                                <li><img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/></li>
+                            </ul>
+                            <ul class="right">
+                                <h3>Currently learning</h3>
+                                <li><i class="fa-brands fa-js"></i>JavaScript</li>
+                                <li><img src="{{url_for('static',filename='Screenshot 2024-09-30 100514.png')}}">Django</li>
+                                <li><i class="fa-brands fa-android"></i>Android Studio</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <section id="education">
+                <div class="experience-left">
+                    <h2 class="experience">Experience</h2>
+                    <div class="experience-left-content">
+                        <p>June 2024 To August 2024</p>
+                        <h2 class="experience-title">IBM SkillsBuild Intership Program</h2>
+                        <p>Full Stack Web Development</p>
+                    </div>
+                </div>
+                <div class="experience-right">
+                    <h2 class="education">Education</h2>
+                    <p>September 2022 - present</p>
+                    <h2 class="education-title">Bachelor Degree Of Information Tecnology</h2>
+                    <p>Parul Institute Of Engineering & Technology</p>
+                    <hr>
+                    <p>April 2021 - June 2022</p>
+                    <h2 class="education-title">Higher Secondary Certificate</h2>
+                    <p>Saraswati International School</p>
+                    <hr>
+                    <p>April 2019 - March 2020</p>
+                    <h2 class="education-title">Secondary School Certificate</h2>
+                    <p>Saraswati International School</p>
+                    <hr>    
+                </div>
+            </section>
+            <section id="projects">
+                <div class="project-container">
+                    <h2 class="project-title">Projects</h2>
+                    <div class="project-content">
+                        <p>Nothing is created for now</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p class="quote">I'm always excited to connect with fellow developers, professionals, and recruiters.<br>Please reach out if you'd like to discuss potential opportunities or just want to chat about technology!</p>
+                <div class="contact-container">
+                    <div class="contact-left">
+                        <div class="contact-left-content">
+                            <h3>Location</h3>
+                            <p>India</p>
+                            <h3>Email</h3>
+                            <p>ay87896@gmail.com</p>
+                            <h3>Linkedin</h3>
+                            <p>https://www.linkedin.com/in/ashish-yadav-55446232a</p>
+                            <h3>GitHub</h3>
+                            <p>https://github.com/AshishIT611</p>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-right-content">
+                            <form action="{{url_for('home')}}" id="myForm" method="post">
+                                <div class="form-content">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="form-content">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="form-content">
+                                    <label for="Message">Message</label>
+                                    <textarea name="message" rows="10" cols="90" placeholder="Enter your message" id="message"></textarea>
+                                </div>
+                                <button type="submit" id="btn" class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        </div>
+    </div>
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+</html>
